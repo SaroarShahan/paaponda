@@ -1,22 +1,21 @@
-import React from "react";
-import DashboardContainer from "../components/dashboard/containers/DashboardContainer";
-import AboutContainer from "../components/about/containers/AboutContainer";
-import ContactContainer from "../components/contact/containers/ContactContainer";
+import DashboardRoute from "../modules/dashboard/routes";
+import AboutContainer from "./../modules/about/containers/AboutContainer";
+import ContactRoutes from "./../modules/contact/routes";
 
 const routes = [
   {
-    path: "/",
-    exact: true,
-    main: () => <DashboardContainer />
+    path: "/paaponda/home",
+    component: DashboardRoute
   },
   {
-    path: "/about",
-    main: () => <AboutContainer />
+    path: "/paaponda/about",
+    component: AboutContainer
   },
   {
-    path: "/contact",
-    main: () => <ContactContainer />
-  }
+    path: "/paaponda/contact",
+    component: ContactRoutes
+  },
+  { path: "/paaponda/", component: DashboardRoute, exact: true }
 ];
 
 export default routes;

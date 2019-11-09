@@ -1,14 +1,11 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.min.css";
-import Sidebar from "./modules/common/Sidebar";
-import routes from "./routes";
+import Sidebar from "../../common/Sidebar";
+import routes from "./../routes/index";
 
 function App() {
   return (
     <>
-      <ToastContainer />
       <Sidebar>
         <Switch>
           {routes.map((route, index) => (

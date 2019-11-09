@@ -3,13 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "google-maps-react": "^2.0.2",
+    "number-abbreviate": "^2.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-icons": "^3.8.0",
     "react-redux": "^7.1.3",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "react-spinners": "^0.6.1",
+    "react-toastify": "^5.4.0",
+    "recharts": "^1.8.5",
     "redux": "^4.0.4"
   },
+  "homepage": "https://saroarshahan.github.io/paaponda",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
