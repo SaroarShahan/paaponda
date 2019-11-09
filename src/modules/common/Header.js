@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <HeaderArea>
       <h1>
-        <Link to="/paaponda/home">PaaponDa</Link>
+        <Link to="/home">PaaponDa</Link>
       </h1>
 
       <form>

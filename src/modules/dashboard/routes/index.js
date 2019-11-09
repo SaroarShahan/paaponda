@@ -13,8 +13,8 @@ class DashboardRoute extends Component {
     return (
       <Suspense fallback={<Loader fullscreen />}>
         <Switch>
-          <Route exact path="/paaponda/home" component={DashboardContainer} />
-          <Redirect exact from="/paaponda/" to="/paaponda/home" />
+          <Route exact path="/home" component={DashboardContainer} />
+          <Redirect exact from="/" to="/home" />
         </Switch>
       </Suspense>
     );

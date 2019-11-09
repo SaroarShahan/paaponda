@@ -4,18 +4,18 @@ import ContactRoutes from "./../modules/contact/routes";
 
 const routes = [
   {
-    path: "/paaponda/home",
+    path: "/home",
     component: DashboardRoute
   },
   {
-    path: "/paaponda/about",
+    path: "/about",
     component: AboutContainer
   },
   {
-    path: "/paaponda/contact",
+    path: "/contact",
     component: ContactRoutes
   },
-  { path: "/paaponda/", component: DashboardRoute, exact: true }
+  { path: "/", component: DashboardRoute, exact: true }
 ];
 
 export default routes;

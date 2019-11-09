@@ -24,7 +24,7 @@ const MapContainer = ({ google }) => {
 };
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyCgQs71zWRYkIHoiCl2Lejbsno12zv9qwA"
+  apiKey: "YOUR_API_KEY_GOES_HERE"
 })(MapContainer);
 
 const MapWrapper = styled.div`

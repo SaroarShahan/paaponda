@@ -13,7 +13,7 @@ class ContactRoutes extends Component {
     return (
       <Suspense fallback={<Loader fullscreen />}>
         <Switch>
-          <Route path="/paaponda/contact" component={ContactContainer} />
+          <Route path="/contact" component={ContactContainer} />
         </Switch>
       </Suspense>
     );

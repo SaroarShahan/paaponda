@@ -19,22 +19,18 @@ class Sidebar extends Component {
           <SidebarStyle>
             <ul>
               <li>
-                <Link to="/paaponda/home">
+                <Link to="/home">
                   <MenuActive
-                    isActive={this.props.location.pathname.includes(
-                      "/paaponda/home"
-                    )}
+                    isActive={this.props.location.pathname.includes("/home")}
                   >
                     Home
                   </MenuActive>
                 </Link>
               </li>
               <li>
-                <Link to="/paaponda/contact">
+                <Link to="/contact">
                   <MenuActive
-                    isActive={this.props.location.pathname.includes(
-                      "/paaponda/contact"
-                    )}
+                    isActive={this.props.location.pathname.includes("/contact")}
                   >
                     contact
                   </MenuActive>

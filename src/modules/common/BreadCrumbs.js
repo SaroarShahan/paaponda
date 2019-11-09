@@ -10,7 +10,7 @@ const BreadCrumbs = ({ title }) => {
 
       <ul>
         <li>
-          <Link to="/paaponda/home">Home</Link>
+          <Link to="/home">Home</Link>
           <i>
             <FaAngleRight />
           </i>
